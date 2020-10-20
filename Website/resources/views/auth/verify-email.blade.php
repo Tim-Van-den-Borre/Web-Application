@@ -24,6 +24,14 @@
                     </x-jet-button>
                 </div>
             </form>
+
+            <form method="POST" action="{{ route('logout') }}">
+                @csrf
+
+                <button type="submit" class="underline text-sm text-gray-600 hover:text-gray-900">
+                    {{ __('Logout') }}
+                </button>
+            </form>
         </div>
     </x-jet-authentication-card>
 </x-guest-layout>
