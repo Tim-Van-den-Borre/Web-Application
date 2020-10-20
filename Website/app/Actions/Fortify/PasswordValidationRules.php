@@ -3,6 +3,7 @@
 namespace App\Actions\Fortify;
 
 use Laravel\Fortify\Rules\Password;
+use App\Rules\ValidatePasswordExistence;
 
 trait PasswordValidationRules
 {
@@ -13,6 +14,6 @@ trait PasswordValidationRules
      */
     protected function passwordRules()
     {
-        return ['required', 'string', 'min:7', 'confirmed'];
+        return ['required', 'string', 'min:7', 'confirmed', new ValidatePasswordExistence];
     }
 }
