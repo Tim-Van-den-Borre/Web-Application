@@ -5,6 +5,7 @@ use Illuminate\Foundation\Auth\EmailVerificationRequest;
 use Illuminate\Http\Request;
 
 use App\Http\Controllers\GDPRController;
+use App\Http\Controllers\UserdataController;
 
 /*
 |--------------------------------------------------------------------------
@@ -43,3 +44,5 @@ Route::post('/email/verification-notification', function (Request $request) {
 })->middleware(['auth', 'throttle:6,1'])->name('verification.send');
 
 Route::get('/gdpr', [GDPRController::class, 'index'])->name('gdpr');
+
+Route::get('/downloadfile', [UserdataController::class, 'index'])->name('getfile');

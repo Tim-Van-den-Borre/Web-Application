@@ -101,6 +101,7 @@
                         Build v{{ Illuminate\Foundation\Application::VERSION }}
                     </div>
                 </div>
+                <span class="ml-2 text-sm text-gray-600"><a href="{{ route('gdpr')}}" target="_blank"><u>Our terms & conditions</u></a></span>
             </div>
         </div>
     </body>

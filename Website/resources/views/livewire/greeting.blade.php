@@ -3,4 +3,3 @@
         Welcome {{ Auth::user()->name }}
     </div>
 </div>
-

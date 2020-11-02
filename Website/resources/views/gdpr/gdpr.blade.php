@@ -91,6 +91,15 @@
                     <h2>Consent</h2>
 
                     <p>By using our website, you hereby consent to our Privacy Policy and agree to its terms.</p>
+
+                    <h2>Contact information</h2>
+
+                    <p>In case of any complaint / questions, you can contact the owner of this website by email.</p>
+
+                    <ul>
+                        <li>Owner: Tim Van den Borre</li>
+                        <li>Email: tim.vandenborre@student.ehb.be</li>
+                    </ul>
             </div>
         </div>
     </body>
