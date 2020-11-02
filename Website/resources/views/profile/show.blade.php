@@ -44,7 +44,7 @@
                     <div class="mt-5 md:mt-0 md:col-span-2">
                         <div class="px-4 py-5 sm:p-6 bg-white shadow sm:rounded-lg">
                             <div class="max-w-xl text-sm text-gray-600">
-                                If necessary, you can download the data that we are keeping from you.
+                                If necessary, you can download the data in 'JSON' format that we are keeping from you.
                             </div>
                             <div class="mt-5">
                                     <a href="{{route('getfile')}}" class="inline-flex items-center px-4 py-2 bg-gray-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-gray-700 active:bg-gray-900 focus:outline-none focus:border-gray-900 focus:shadow-outline-gray disabled:opacity-25 transition ease-in-out duration-150">
