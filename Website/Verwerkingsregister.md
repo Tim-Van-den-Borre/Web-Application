@@ -1,13 +1,34 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+## Naam en contactgegevens verantwoordelijke:
 
-## Over deze website
+-   Tim Van den Borre
+-   tim.van.den.borre@student.ehb.be
 
--   Alle interacties tussen browser en web server gebeuren over HTTPS.
--   Gebruikers kunnen zich registreren.
--   Geregistreerde gebruikers kunnen zich aanmelden waardoor ze toegang krijgen tot bijkomende functionaliteit.
--   Voldoet aan de wettelijke eisen omtrent persoonlijke gegevensbescherming.
+## Verwerkingsdoeleinden:
 
-## HTTPS
+-   Security
+-   beveiliging gegevens & website.
+
+## Beschrijving categorieen betrokkenen:
+
+-   geïnteresseerde mensen
+
+## Beschrijving categoriëen persoonsgegevens:
+
+-   Naam
+-   Email
+-   Paswoord
+
+## Categoriëen ontvangers:
+
+-   Hostingprovider
+
+## Bewaringstermijn gegevens:
+
+-   Gegevens worden enkel bewaard zolang de gebruiker een account heeft op de website.
+
+## Algemene beschrijving technische en organisatorische maatregelen:
+
+### HTTPS
 
 -   Bij een HTTP request naar het domein wordt een 301 response teruggestuurd met een redirect naar een equivalente HTTPS URL.
 -   Geen mixed content.
@@ -18,7 +39,7 @@
 -   Iedere respons bevat een Strict-Transport-Security header.
 -   Het gebruikte domein staat in de HSTS preload list of wacht op toevoeging.
 
-## Registratie
+### Registratie
 
 -   Gebruikers moeten een gebruikersnaam, email en wachtwoord ingeven bij registratie. Login gebeurt via email & paswoord.
 -   Alle ASCII karakters worden aanvaard in het wachtwoord.
@@ -26,7 +47,7 @@
 -   Vaak gebruikte wachtwoorden worden geweigerd als de HIBP API aangeeft dat het meer dan 300 keer voorkwam in eerdere inbraken.
 -   Wachtwoorden word geëncrypteerd door gebruik te maken van Argon2 / bcrypt.
 
-## Aanmelden
+### Aanmelden
 
 -   Bij 5 herhaalde mislukte pogingen moet de gebruiker 1 minuut wachten om terug in te loggen.
 -   Er kan gebruik gemaakt worden van een password manager.
@@ -34,27 +55,19 @@
 -   Gebruiker krijgt een 'welcome' bericht als deze is aangemeld.
 -   Na het aanmelden kan de gebruiker op zijn profiel zijn / haar gegevens opvragen.
 
-## Bescherming persoonlijke gegevens
+### Bescherming persoonlijke gegevens
 
 -   De webtoepassing is conform met de wetgeving, in casu de AVG en ePrivacy richtlijn.
 
-## Privacyverklaring
+### Privacyverklaring
 
 -   Iedere pagina van de webtoepassing bevat een duidelijk zichtbare link naar de privacyverklaring die de gebruiker informeert over persoonsgegevensverwerking.
 
-## Toestemming
+### Toestemming
 
 -   Op deze website worden enkel noodzakelijke cookies gebruikt.
 
-## Uitoefenen van rechten
+### Uitoefenen van rechten
 
 -   De gebruiker heeft recht tot inzage, rectificatie, en het verwijderen van zijn persoonlijke data.
 -   Voor bezwaar is het mogelijk om contact op te nemen met de beheerder van de website. Gegevens staan onderaan op het gdpr document van de website.
-
-## Verwerkingsregister
-
--   Het verwerkingsregister kan gevonden worden in de root van de website.
-
-## URL
-
--   <a href="https://timvandenborre.be" target="_blank">timvandenborre.be</a>
