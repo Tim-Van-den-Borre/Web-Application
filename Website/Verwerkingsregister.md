@@ -6,21 +6,17 @@
 ## Verwerkingsdoeleinden:
 
 -   Security
--   beveiliging gegevens & website.
+-   Beveiliging gegevens & website.
 
 ## Beschrijving categorieen betrokkenen:
 
--   geïnteresseerde mensen
+-   Geïnteresseerde mensen
 
 ## Beschrijving categoriëen persoonsgegevens:
 
 -   Naam
 -   Email
 -   Paswoord
-
-## Categoriëen ontvangers:
-
--   Hostingprovider
 
 ## Bewaringstermijn gegevens:
 
