@@ -7,55 +7,57 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## Over deze website
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+-   Alle interacties tussen browser en web server gebeuren over HTTPS.
+-   Gebruikers kunnen zich registreren.
+-   Geregistreerde gebruikers kunnen zich aanmelden waardoor ze toegang krijgen tot bijkomende functionaliteit.
+-   Voldoet aan de wettelijke eisen omtrent persoonlijke gegevensbescherming.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## HTTPS
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+-   Bij een HTTP request naar het domein wordt een 301 response teruggestuurd met een redirect naar een equivalente HTTPS URL.
+-   Geen mixed content.
+-   Alle content van het origin domein wordt over HTTPS verstuurd.
+-   Bij content van andere hosts met HTTP request wordt een 301 response teruggestuurd met een redirect naar een equivalente HTTPS URL.
+-   Het domein krijgt een A+ score bij de SSL Labs server test.
+-   Er word gebruik gemaakt van DNS CAA.
+-   Iedere respons bevat een Strict-Transport-Security header.
+-   Het gebruikte domein staat in de HSTS preload list of wacht op toevoeging.
 
-## Learning Laravel
+## Registratie
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+-   Gebruikers moeten een gebruikersnaam, email en wachtwoord ingeven bij registratie. Login gebeurt via email & paswoord.
+-   Alle ASCII karakters worden aanvaard in het wachtwoord.
+-   Wachtwoorden zijn minstens 7 karakters lang en het is mogelijk om een password manager te gebruiken.
+-   Vaak gebruikte wachtwoorden worden geweigerd als de HIBP API aangeeft dat het meer dan 300 keer voorkwam in eerdere inbraken.
+-   Wachtwoorden word geëncrypteerd door gebruik te maken van Argon2 / bcrypt.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Aanmelden
 
-## Laravel Sponsors
+-   Bij 5 herhaalde mislukte pogingen moet de gebruiker 1 minuut wachten om terug in te loggen.
+-   Er kan gebruik gemaakt worden van een password manager.
+-   Er kan pas ingelogd worden als de gebruiker aangetoond heeft dat hij / zij het email adres opgegeven tijdens registratie onder controle heeft. (Email verification)
+-   Gebruiker krijgt een 'welcome' bericht als deze is aangemeld.
+-   Na het aanmelden kan de gebruiker op zijn profiel zijn / haar gegevens opvragen.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## Bescherming persoonlijke gegevens
 
-### Premium Partners
+-   De webtoepassing is conform met de wetgeving, in casu de AVG en ePrivacy richtlijn.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
+## Privacyverklaring
 
-## Contributing
+-   Iedere pagina van de webtoepassing bevat een duidelijk zichtbare link naar de privacyverklaring die de gebruiker informeert over persoonsgegevensverwerking.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Toestemming
 
-## Code of Conduct
+-   Op deze website worden enkel noodzakelijke cookies gebruikt.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Uitoefenen van rechten
 
-## Security Vulnerabilities
+-   De gebruiker heeft recht tot inzage, rectificatie, en het verwijderen van zijn persoonlijke data.
+-   Voor bezwaar is het mogelijk om contact op te nemen met de beheerder van de website. Gegevens staan onderaan op het gdpr document van de website. V
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## URL
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+-   <a href="https://timvandenborre.be">timvandenborre.be</a>
