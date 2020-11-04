@@ -18,6 +18,10 @@
 -   Email
 -   Paswoord
 
+## Categoriëen ontvangers
+
+-   Cloudopslag
+
 ## Bewaringstermijn gegevens:
 
 -   Gegevens worden enkel bewaard zolang de gebruiker een account heeft op de website.
