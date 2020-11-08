@@ -6,6 +6,7 @@
 -   Gebruikers kunnen zich registreren.
 -   Geregistreerde gebruikers kunnen zich aanmelden waardoor ze toegang krijgen tot bijkomende functionaliteit.
 -   Voldoet aan de wettelijke eisen omtrent persoonlijke gegevensbescherming.
+-   Maatregelen tegen veel voorkomende risico's.
 
 ## HTTPS
 
