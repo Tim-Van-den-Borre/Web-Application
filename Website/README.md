@@ -55,6 +55,12 @@
 
 -   Het verwerkingsregister kan gevonden worden in de root van de website.
 
+## Maatregelen tegen veel voorkomende risico's
+
+-   Geen third-party componenten met security issues.
+-   Geheimen zijn afgeschermd.
+-   Bescherming tegen xss, csrf & code injection.
+
 ## URL
 
 -   <a href="https://timvandenborre.be" target="_blank">timvandenborre.be</a>

@@ -71,3 +71,9 @@
 
 -   De gebruiker heeft recht tot inzage, rectificatie, en het verwijderen van zijn persoonlijke data.
 -   Voor bezwaar is het mogelijk om contact op te nemen met de beheerder van de website. Gegevens staan onderaan op het gdpr document van de website.
+
+### Maatregelen tegen veel voorkomende risico's
+
+-   Geen third-party componenten met security issues.
+-   Geheimen zijn afgeschermd.
+-   Bescherming tegen xss, csrf & code injection.
