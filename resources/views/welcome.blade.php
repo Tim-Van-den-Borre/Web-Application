@@ -96,7 +96,7 @@
                 <div class="flex justify-center mt-4 sm:items-center sm:justify-between">
                     <div class="text-center text-sm text-gray-500 sm:text-left">
                         <div class="flex items-center">
-                            <span class="ml-2 text-sm text-gray-600"><a href="{{ route('gdpr')}}" target="_blank"><u>Our terms & conditions</u></a></span>
+                            <span class="ml-2 text-sm text-gray-600"><a href="{{ route('privacy-policy')}}" target="_blank"><u>Our Privacy Policy</u></a></span>
                         </div>
                     </div>
                     <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">

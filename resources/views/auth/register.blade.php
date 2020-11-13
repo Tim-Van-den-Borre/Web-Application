@@ -32,7 +32,7 @@
             <div class="mt-4">
                 <x-jet-label for="terms_and_conditions" class="flex items-center" />
                     <input id="terms_and_conditions" type="checkbox" class="form-checkbox" name="terms_and_conditions">
-                    <span class="ml-2 text-sm text-gray-600"><a href="{{ route('gdpr')}}" target="_blank"><u>Accept terms & conditions</u></a></span>
+                    <span class="ml-2 text-sm text-gray-600"><a href="{{ route('privacy-policy')}}" target="_blank"><u>Accept Privacy Policy</u></a></span>
             </div>
             
             <div class="flex items-center justify-end mt-4">
