@@ -30,8 +30,8 @@
             </div>
 
             <div class="mt-4">
-                <x-jet-label for="terms_and_conditions" class="flex items-center" />
-                    <input id="terms_and_conditions" type="checkbox" class="form-checkbox" name="terms_and_conditions">
+                <x-jet-label for="privacy_policy" class="flex items-center" />
+                    <input id="privacy_policy" type="checkbox" class="form-checkbox" name="privacy_policy">
                     <span class="ml-2 text-sm text-gray-600"><a href="{{ route('privacy-policy')}}" target="_blank"><u>Accept Privacy Policy</u></a></span>
             </div>
             
