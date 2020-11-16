@@ -32,6 +32,10 @@
                 </label>
             </div>
 
+            <div class="block mt-4">
+                <span class="ml-2 text-sm text-gray-600"><a href="{{ route('privacy-policy')}}" target="_blank"><u>Our Privacy Policy</u></a></span>
+            </div>
+
             <div class="flex items-center justify-end mt-4">
                 @if (Route::has('password.request'))
                     <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('password.request') }}">
@@ -43,6 +47,7 @@
                     {{ __('Login') }}
                 </x-jet-button>
             </div>
+            
         </form>
     </x-jet-authentication-card>
 </x-guest-layout>
