@@ -18,6 +18,21 @@
             body {
                 font-family: 'Nunito';
             }
+
+            .closeMessage {
+                margin-left: 10px;
+                color: white;
+                font-weight: bold;
+                float: right;
+                font-size: 22px;
+                line-height: 20px;
+                cursor: pointer;
+                transition: 0.3s;
+            }
+
+            .message {
+                border-radius: 10px;
+            }
         </style>
     </head>
     <body class="antialiased">
@@ -103,7 +118,25 @@
                         Build v{{ Illuminate\Foundation\Application::VERSION }}
                     </div>
                 </div>
-                
+                <div class="flex justify-center mt-4 sm:items-center sm:justify-between" style="display: block;">
+                    <br><br>
+                    <?php
+                    if(!isset($_COOKIE['laravel_session_message'])){
+                    ?>
+                        <div class="message" style="padding: 5px; background-color: #108fc2; color: white;">
+                            <span class="closeMessage" onclick="this.parentElement.style.display='none';"><button type="button" onclick="setMessageCookie(true);" class="btn btn-primary btn-sm">Accept</button></span> 
+                            <small>This website is only using necessary cookies.</small>
+                        </div>
+                        <script>
+                            function setMessageCookie($check){
+                                if($check != false){
+                                    document.cookie = "laravel_session_message = Accepted by user;";
+                                }
+                            }
+                        </script>
+                    <?php
+                    }
+                    ?>
             </div>
         </div>
     </body>

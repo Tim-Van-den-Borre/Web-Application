@@ -5,12 +5,15 @@
 
 ## Verwerkingsdoeleinden:
 
--   Security
--   Beveiliging gegevens & website.
+-   Een website voorzien van security zodat de gegevens van de gebruiker veilig bewaard blijven.
 
 ## Beschrijving categorieen betrokkenen:
 
--   Geïnteresseerde mensen
+-   Gebruikers met een account op de website.
+
+## Rechtsgrond
+
+-   Contractuele Rechtsgrond: de verwerking is noodzakelijk voor de uitvoering van een overeenkomst.
 
 ## Beschrijving categoriëen persoonsgegevens:
 
@@ -20,7 +23,7 @@
 
 ## Categoriëen ontvangers
 
--   Cloudopslag
+-   Cloudopslag. Alle data van de gebruikers wordt opgeslagen in een databank van phpmyadmin.
 
 ## Bewaringstermijn gegevens:
 
@@ -28,52 +31,20 @@
 
 ## Algemene beschrijving technische en organisatorische maatregelen:
 
-### HTTPS
+### Domein
 
--   Bij een HTTP request naar het domein wordt een 301 response teruggestuurd met een redirect naar een equivalente HTTPS URL.
--   Geen mixed content.
--   Alle content van het origin domein wordt over HTTPS verstuurd.
--   Bij content van andere hosts met HTTP request wordt een 301 response teruggestuurd met een redirect naar een equivalente HTTPS URL.
--   Het domein krijgt een A+ score bij de SSL Labs server test.
--   Er word gebruik gemaakt van DNS CAA.
--   Iedere respons bevat een Strict-Transport-Security header.
--   Het gebruikte domein staat in de HSTS preload list of wacht op toevoeging.
+-   Voor de website online te krijgen was er een domein nodig. Hiervoor zijn we naar <a href="https://mijn.nomeo.be/"><u>Nomeo</u></a> gegaan.
+-   Nomeo heeft een domein voorzien voor een jaar (gratis voor student).
+-   Via het domein was het dan mogelijk om HTTPS op te zetten, records aan te maken (CAA), een A+ score te voorzien voor de website, Strict-Transport-Security headers te voorzien en op de HSTS preload list te komen.
 
-### Registratie
+### Website
 
--   Gebruikers moeten een gebruikersnaam, email en wachtwoord ingeven bij registratie. Login gebeurt via email & paswoord.
--   Alle ASCII karakters worden aanvaard in het wachtwoord.
--   Wachtwoorden zijn minstens 7 karakters lang en het is mogelijk om een password manager te gebruiken.
--   Vaak gebruikte wachtwoorden worden geweigerd als de HIBP API aangeeft dat het meer dan 300 keer voorkwam in eerdere inbraken.
--   Wachtwoorden word geëncrypteerd door gebruik te maken van Argon2 / bcrypt.
+-   Deze website is geschreven gebruikmakend van het <a href="https://laravel.com"><u>Laravel 8 Framework</u></a>.
+-   Dankzij Laravel hebben we een volledige login /registratie kunnen aanbieden aan de gebruiker alsook het het beveiligen van de gebruiker zijn data via encryptie.
+-   De <a href="https://haveibeenpwned.com/API/v3#PwnedPasswords"><u>HIBP API</u></a> is voorzien om de controleren of een paswoord meer dan 300 keer voorkomt in eerdere inbraken. Dit geeft geeft de gebruiker de mogelijkheid om een paswoord te kiezen dat weinig of niet voorkomt.
+-   <a href="https://www.gdprprivacynotice.com/"><u>GDPR Privacy Policy Generator</u></a> was nuttig voor het aanmaken van de privacy policy van de website zodat we conform zijn met de ePrivacy richtlijn.
+-   Laravel laat het toe om bescherming te bieden tegen talloze aanvallen zoals CSRF, XSS, XSSI, Clickjacking, XFS, SQL injection, Command injection, HTML injection en CSS injection.
 
-### Aanmelden
+### URL naar de website
 
--   Bij 5 herhaalde mislukte pogingen moet de gebruiker 1 minuut wachten om terug in te loggen.
--   Er kan gebruik gemaakt worden van een password manager.
--   Er kan pas ingelogd worden als de gebruiker aangetoond heeft dat hij / zij het email adres opgegeven tijdens registratie onder controle heeft. (Email verification)
--   Gebruiker krijgt een 'welcome' bericht als deze is aangemeld.
--   Na het aanmelden kan de gebruiker op zijn profiel zijn / haar gegevens opvragen.
-
-### Bescherming persoonlijke gegevens
-
--   De webtoepassing is conform met de wetgeving, in casu de AVG en ePrivacy richtlijn.
-
-### Privacyverklaring
-
--   Iedere pagina van de webtoepassing bevat een duidelijk zichtbare link naar de privacyverklaring die de gebruiker informeert over persoonsgegevensverwerking.
-
-### Toestemming
-
--   Op deze website worden enkel noodzakelijke cookies gebruikt.
-
-### Uitoefenen van rechten
-
--   De gebruiker heeft recht tot inzage, rectificatie, en het verwijderen van zijn persoonlijke data.
--   Voor bezwaar is het mogelijk om contact op te nemen met de beheerder van de website. Gegevens staan onderaan op het gdpr document van de website.
-
-### Maatregelen tegen veel voorkomende risico's
-
--   Geen third-party componenten met security issues.
--   Geheimen zijn afgeschermd.
--   Bescherming tegen xss, csrf & code injection.
+-   <a href="https://timvandenborre.be" target="_blank">timvandenborre.be</a>

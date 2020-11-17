@@ -24,7 +24,7 @@
         <div class="relative flex items-top justify-center min-h-screen sm:items-center sm:pt-0">
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
 
-                    <h1>Privacy Policy for Erasmus Brussels</h1>
+                    <h1>Privacy Policy for timvandenborre.be</h1>
 
                     <p>At timvandenborre.be, accessible from timvandenborre.be, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by timvandenborre.be and how we use it.</p>
 
@@ -33,18 +33,19 @@
                     <h2>General Data Protection Regulation (GDPR)</h2>
                     <p>We are a Data Controller of your information.</p>
 
-                    <p>Erasmus Brussels legal basis for collecting and using the personal information described in this Privacy Policy depends on the Personal Information we collect and the specific context in which we collect the information:</p>
+                    <p>timvandenborre.be legal basis for collecting and using the personal information described in this Privacy Policy depends on the Personal Information we collect and the specific context in which we collect the information:</p>
                     <ul>
-                        <li>Erasmus Brussels needs to perform a contract with you</li>
-                        <li>You have given Erasmus Brussels permission to do so</li>
-                        <li>Processing your personal information is in Erasmus Brussels legitimate interests</li>
-                        <li>Erasmus Brussels needs to comply with the law</li>
+                        <li>timvandenborre.be needs to perform a contract with you</li>
+                        <li>You have given timvandenborre.be permission to do so</li>
+                        <li>Processing your personal information is in timvandenborre.be legitimate interests</li>
+                        <li>timvandenborre.be needs to comply with the law</li>
                     </ul>
                     
-                    <p>Erasmus Brussels will retain your personal information only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your information to the extent necessary to comply with our legal obligations, resolve disputes, and enforce our policies.</p>
+                    <p>timvandenborre.be will retain your personal information only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your information to the extent necessary to comply with our legal obligations, resolve disputes, and enforce our policies.</p>
 
-                    <p>If you are a resident of the European Economic Area (EEA), you have certain data protection rights. If you wish to be informed what Personal Information we hold about you and if you want it to be removed from our systems, please contact us.</p>
-                    <p>In certain circumstances, you have the following data protection rights:</p>
+                    <p>If you are a resident of the European Economic Area (EEA), you have certain data protection rights. 
+                    If you wish to be informed what Personal Information we hold about you and if you want it to be removed from our systems, please contact us using the <b>Contact Information</b> section at the bottom of the page.</p>
+                    <p>As a user, you have the following data protection rights:</p>
                     <ul>
                         <li>The right to access, update or to delete the information we have on you.</li>
                         <li>The right of rectification.</li> 
@@ -56,33 +57,23 @@
 
                     <h2>Log Files</h2>
 
-                    <p>timvandenborre.be follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.</p>
+                    <p>timvandenborre.be follows a standard procedure of using log files. These files log visitors when they visit websites. The information collected by log files include internet protocol (IP) addresses, browser type and the date and time stamp. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site and tracking the amount of users that went on the website.</p>
+
+                    <h2>Retention period of personal data / Processing purposes</h2>
+                    
+                    <p>Personal data including log files are only kept as long as the user has an account on the website.</p>
+
+                    <p>Our processing purposes are to protect user data as long as the user has an account on the website.</p>
 
                     <h2>Cookies and Web Beacons</h2>
 
-                    <p>Like any other website, timvandenborre.be uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.</p>
+                    <p>Like any other website, timvandenborre.be uses 'cookies'. This website only uses the fully necessary cookies to keep the site functional.</p>
 
                     <p>For more general information on cookies, please read <a href="https://www.cookieconsent.com/what-are-cookies/"><u>what cookies are</u></a>.</p>
 
-                    <h2>Privacy Policies</h2>
-
-                    <P>You may consult this list to find the Privacy Policy for each of the advertising partners of timvandenborre.be.</p>
-
-                    <p>Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on timvandenborre.be, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.</p>
-
-                    <p>Note that timvandenborre.be has no access to or control over these cookies that are used by third-party advertisers.</p>
-
                     <h2>Third Party Privacy Policies</h2>
 
-                    <p>timvandenborre.be's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. </p>
-
-                    <p>You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.</p>
-
-                    <h2>Children's Information</h2>
-
-                    <p>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.</p>
-
-                    <p>timvandenborre.be does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
+                    <p>timvandenborre.be's Privacy Policy does not apply to other advertisers or websites.</p>
 
                     <h2>Online Privacy Policy Only</h2>
 
