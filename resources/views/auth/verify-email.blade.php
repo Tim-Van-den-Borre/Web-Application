@@ -1,5 +1,24 @@
-<x-guest-layout>
-    <x-jet-authentication-card>
+<style>
+    .card {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    }
+</style>
+
+<x-app-layout class="card">
+
+            @if (Route::has('login'))
+                <div class="fixed top-0 right-0 px-6 py-4 sm:block">
+                    @auth
+                    <x-slot name="header">
+                        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
+                            {{ __('VerifyEmail') }}
+                        </h2>
+                    </x-slot>
+                    @endif
+                </div>
+            @endif
+        <x-jet-authentication-card class="card">
         <x-slot name="logo">
             <x-jet-authentication-card-logo />
         </x-slot>
@@ -38,4 +57,5 @@
             </form>
         </div>
     </x-jet-authentication-card>
-</x-guest-layout>
+           
+</x-app-layout>
