@@ -131,6 +131,7 @@
 
     <!-- Responsive Navigation Menu -->
     <div :class="{'block': open, 'hidden': ! open}" class="hidden sm:hidden">
+
         @auth
         <div class="pt-2 pb-3 space-y-1">
             <x-jet-responsive-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
@@ -157,9 +158,17 @@
             </div>
 
             <div class="mt-3 space-y-1">
+            @if(!Auth::user())
             <x-jet-responsive-nav-link href="{{ route('welcome') }}" :active="request()->routeIs('welcome')">
                         {{ __('Home') }}
                     </x-jet-responsive-nav-link>
+            <x-jet-responsive-nav-link href="{{ route('login') }}" :active="request()->routeIs('login')">
+                        {{ __('Login') }}
+                    </x-jet-responsive-nav-link>
+            <x-jet-responsive-nav-link href="{{ route('register') }}" :active="request()->routeIs('register')">
+                        {{ __('Register') }}
+                    </x-jet-responsive-nav-link>
+            @else
                 <!-- Account Management -->
                 @auth
                 <x-jet-responsive-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
@@ -220,6 +229,8 @@
                         <x-jet-switchable-team :team="$team" component="jet-responsive-nav-link" />
                     @endforeach
                     @endif
+                @endif
+
                 @endif
             </div>
         </div>
