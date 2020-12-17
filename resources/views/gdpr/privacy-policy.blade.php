@@ -57,7 +57,7 @@
 
                     <h2>Log Files</h2>
 
-                    <p>timvandenborre.be follows a standard procedure of using log files. These files log visitors when they visit websites. The information collected by log files include internet protocol (IP) addresses, browser type and the date and time stamp. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site and tracking the amount of users that went on the website.</p>
+                    <p>timvandenborre.be follows a standard procedure of using log files. These files log visitors when they visit websites. The information collected by log files include browser type, date and time stamp. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site and tracking the amount of users that went on the website.</p>
 
                     <h2>Retention period of personal data / Processing purposes</h2>
                     
