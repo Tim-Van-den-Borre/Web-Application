@@ -21,3 +21,52 @@
 ## URL naar de website
 
 -   <a href="https://timvandenborre.be" target="_blank">timvandenborre.be</a>
+
+## API
+
+-   Via postman kan er gebruik gemaakt worden van de api.
+-   In postman voegen we een header toe: <b>Accept: application/json</b>
+
+### CRUD Calls
+
+#### Registreer
+
+-   https://timvandenborre.be/api/register (POST)
+    ![alt text](https://i.imgur.com/KeCZS7H.png)
+
+#### Log in
+
+-   https://timvandenborre.be/api/login (POST)
+    ![alt text](https://i.imgur.com/DoQ1YBE.png)
+-   Nadien plaatsen we de token die we gekregen hebben in Authentication als 'Bearer Token'.
+    ![alt text](https://i.imgur.com/uwnSdwE.png)
+
+#### Haal alle games op
+
+-   https://timvandenborre.be/api/games (GET)
+    ![alt text](https://i.imgur.com/Zh14tT8.png)
+
+#### Voeg een game toe
+
+-   https://timvandenborre.be/api/games (POST)
+    ![alt text](https://i.imgur.com/NiX6ayS.png)
+
+#### Haal een game op via het ID
+
+-   https://timvandenborre.be/api/games/{id} (GET)
+    ![alt text](https://i.imgur.com/q9IseiQ.png)
+
+#### Pas een game aan via het ID
+
+-   https://timvandenborre.be/api/games/{id} (PUT)
+    ![alt text](https://i.imgur.com/UeLwNDn.png)
+
+#### Verwijder een game via het ID
+
+-   https://timvandenborre.be/api/games/{id} (DELETE)
+    ![alt text](https://i.imgur.com/ycaZ6bp.png)
+
+#### Haal de OPTIONS op.
+
+-   https://timvandenborre.be/api/games (OPTIONS)
+    ![alt text](https://i.imgur.com/ol5SHaT.png)
