@@ -54,7 +54,7 @@
 #### Haal een game op via het ID
 
 -   https://timvandenborre.be/api/games/{id} (GET)
-    ![alt text](https://i.imgur.com/NiyxUUN.png)
+    ![alt text](https://i.imgur.com/PnFzk0I.png)
 
 #### Pas een game aan via het ID
 
